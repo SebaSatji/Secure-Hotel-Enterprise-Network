@@ -98,11 +98,11 @@ Validation included:
 
 ### ACL Validation
 
-![ACL Validation](screenshots/validation/Acl-Blocking-Access.png)
+![ACL Validation](screenshots/Validation/ACL-Blocking-Access.png)
 
 ### Network Connectivity
 
-![Network Connectivity](screenshots/validation/Network-Connectivity.png)
+![Network Connectivity](screenshots/Validation/Network-Connectivity.png)
 
 ---
 
