@@ -96,8 +96,13 @@ Validation included:
 - Port Security verification
 - Network connectivity testing
 
-Validation screenshots are available in:
-screenshots/validation/
+### ACL Validation
+
+![ACL Validation](screenshots/validation/Acl-Blocking-Access.png)
+
+### Network Connectivity
+
+![Network Connectivity](screenshots/validation/Network-Connectivity.png)
 
 ---
 
