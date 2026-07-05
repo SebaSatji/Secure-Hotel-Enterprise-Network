@@ -125,6 +125,17 @@ The purpose of the lab was to strengthen practical cybersecurity skills alongsid
 ![Service Enumeration](screenshots/Kali/Service-Enumeration.png)
 
 ---
+# Wireshark Analysis
+
+Wireshark was used to observe and analyze network traffic during the lab exercises.
+
+### ICMP Traffic
+
+![ICMP Analysis](screenshots/Wireshark/ICMP-Traffic-Analysis.png)
+
+### ARP Observation
+
+![ARP Analysis](screenshots/wireshark/ARP-Traffic-Before-Attack.png)
 
 # Repository Structure
 Secure-Hotel-Enterprise-Network
