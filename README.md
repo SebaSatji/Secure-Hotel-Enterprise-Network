@@ -25,7 +25,50 @@ The objective of this project was to simulate a secure hotel enterprise network 
 - Document the project professionally using GitHub
 
 ---
+# 🔵🔴 Blue Team vs Red Team Scenario
 
+This project was designed to demonstrate both defensive networking practices (Blue Team) and foundational offensive security concepts (Red Team) through two complementary learning environments.
+
+### 🔵 Phase 1 – Blue Team
+
+A secure hotel enterprise network was designed and implemented in Cisco Packet Tracer.
+
+Security controls included:
+
+- VLAN Segmentation
+- Inter-VLAN Routing
+- Access Control Lists (ACLs)
+- DHCP Snooping
+- Port Security
+
+---
+
+### 🔴 Phase 2 – Red Team
+
+A separate Kali Linux lab was used to simulate the reconnaissance phase of an attacker.
+
+Activities included:
+
+- Host Discovery using Nmap
+- Service Enumeration
+- Network Traffic Analysis using Wireshark
+
+> The Kali Linux environment was intentionally kept separate from the Packet Tracer network. It was used to understand attacker techniques rather than directly attack the simulated enterprise network.
+
+---
+
+### 🔵 Phase 3 – Blue Team Validation
+
+After implementing the security controls, the network was validated to confirm that:
+
+- Unauthorized Guest Wi-Fi access was blocked by ACLs.
+- DHCP Snooping was correctly enabled.
+- Port Security protected switch access ports.
+- Authorized users maintained normal network connectivity.
+
+This workflow demonstrates both the implementation of defensive controls and an understanding of the reconnaissance techniques commonly used by attackers.
+
+---
 ## Network Topology
 
 ![Network Topology](screenshots/topology/Network-Topology.png)
