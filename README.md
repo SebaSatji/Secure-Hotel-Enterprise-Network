@@ -44,7 +44,7 @@ The topology includes:
 
 ---
 
-# 🌐 VLAN Architecture
+# VLAN Architecture
 
 | VLAN | Department |
 |-------|------------|
