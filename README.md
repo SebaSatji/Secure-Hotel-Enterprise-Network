@@ -116,8 +116,13 @@ A separate Kali Linux lab was used to practice fundamental cybersecurity techniq
 
 The purpose of the lab was to strengthen practical cybersecurity skills alongside the Cisco networking project.
 
-Documentation is available in:
-kali-lab/
+### Nmap Host Discovery
+
+![Nmap Host Discovery](screenshots/Kali/Nmap-Host-Discovery.png)
+
+### Service Enumeration
+
+![Service Enumeration](screenshots/Kali/Service-Enumeration.png)
 
 ---
 
