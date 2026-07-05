@@ -6,9 +6,6 @@ This project demonstrates how to design, secure, validate, and document a small 
 
 > Note: The Cisco Packet Tracer network and the Kali Linux lab were developed as separate learning environments. Kali Linux was used for cybersecurity practice and documentation, not as a direct attack against the Packet Tracer network.
 
-## Network Topology
-
-![Network Topology](screenshots/topology/Network-Topology.png)
 ---
 
 # Project Overview
@@ -29,10 +26,9 @@ The objective of this project was to simulate a secure hotel enterprise network 
 
 ---
 
-# Network Topology
+## Network Topology
 
-The complete network topology is available in:
-screenshots/topology/
+![Network Topology](screenshots/topology/Network-Topology.png)
 
 The topology includes:
 
