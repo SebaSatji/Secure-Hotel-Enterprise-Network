@@ -12,13 +12,9 @@
 
 A hands-on enterprise networking and cybersecurity project built using Cisco Packet Tracer and complemented by a separate Kali Linux reconnaissance lab.
 
-The project demonstrates how defensive network engineering (Blue Team) and attacker reconnaissance (Red Team) complement each other in securing an enterprise environment.
+The project demonstrates enterprise network segmentation, Layer 2 security hardening, attacker reconnaissance techniques, and validation of defensive controls.
 
----
-
-# Project Overview
-
-The objective of this project was to simulate a secure hotel enterprise network by implementing network segmentation, secure communication, and Layer 2 security features while documenting the entire implementation professionally.
+> Note: The Kali Linux lab was intentionally kept separate from the Packet Tracer environment and was used to simulate attacker reconnaissance rather than direct attacks against the simulated network.
 
 ---
 
