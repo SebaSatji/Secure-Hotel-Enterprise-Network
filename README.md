@@ -1,10 +1,16 @@
 # Secure Hotel Enterprise Network
+### Blue Team Defense with Red Team Reconnaissance
+![Cisco](https://img.shields.io/badge/Cisco-Packet%20Tracer-blue)
 
-A hands-on enterprise networking and cybersecurity project built using Cisco Packet Tracer and complemented with a separate Kali Linux practice lab.
+![Kali Linux](https://img.shields.io/badge/Kali-Linux-557C94)
 
-This project demonstrates how to design, secure, validate, and document a small enterprise hotel network using industry-standard networking concepts and security best practices.
+![Wireshark](https://img.shields.io/badge/Wireshark-Network%20Analysis-1679A7)
 
-> Note: The Cisco Packet Tracer network and the Kali Linux lab were developed as separate learning environments. Kali Linux was used for cybersecurity practice and documentation, not as a direct attack against the Packet Tracer network.
+![Nmap](https://img.shields.io/badge/Nmap-Reconnaissance-green)
+
+A hands-on enterprise networking and cybersecurity project built using Cisco Packet Tracer and complemented by a separate Kali Linux reconnaissance lab.
+
+The project demonstrates how defensive network engineering (Blue Team) and attacker reconnaissance (Red Team) complement each other in securing an enterprise environment.
 
 ---
 
@@ -14,59 +20,62 @@ The objective of this project was to simulate a secure hotel enterprise network 
 
 ---
 
-# Project Objectives
+# Key Features
 
-- Design an enterprise hotel network
-- Implement VLAN segmentation
-- Configure Inter-VLAN Routing
-- Secure the network using Cisco security features
-- Validate the implemented security controls
-- Practice basic cybersecurity tools using Kali Linux
-- Document the project professionally using GitHub
-
+- Enterprise Hotel Network Design
+- VLAN Segmentation
+- Router-on-a-Stick
+- Extended ACL Implementation
+- DHCP Snooping
+- Port Security
+- Network Security Validation
+- Nmap Reconnaissance
+- Wireshark Traffic Analysis
+- Professional Project Documentation
+  
 ---
-# 🔵🔴 Blue Team vs Red Team Scenario
+# 🔵🔴 Blue Team vs Red Team Workflow
 
-This project was designed to demonstrate both defensive networking practices (Blue Team) and foundational offensive security concepts (Red Team) through two complementary learning environments.
+This project was completed in three phases to simulate how enterprise networks are built, assessed, and validated.
 
-### 🔵 Phase 1 – Blue Team
+## 🔵 Phase 1 – Blue Team: Build & Secure
 
-A secure hotel enterprise network was designed and implemented in Cisco Packet Tracer.
+Designed and implemented a secure hotel enterprise network in Cisco Packet Tracer.
 
 Security controls included:
 
 - VLAN Segmentation
-- Inter-VLAN Routing
-- Access Control Lists (ACLs)
+- Inter-VLAN Routing (Router-on-a-Stick)
+- Extended ACLs
 - DHCP Snooping
 - Port Security
 
 ---
 
-### 🔴 Phase 2 – Red Team
+## 🔴 Phase 2 – Red Team: Reconnaissance
 
 A separate Kali Linux lab was used to simulate the reconnaissance phase of an attacker.
 
-Activities included:
+Activities performed:
 
 - Host Discovery using Nmap
 - Service Enumeration
 - Network Traffic Analysis using Wireshark
 
-> The Kali Linux environment was intentionally kept separate from the Packet Tracer network. It was used to understand attacker techniques rather than directly attack the simulated enterprise network.
+> Note: The Kali Linux lab was intentionally kept separate from the Packet Tracer environment. It was used to understand attacker reconnaissance techniques rather than directly attack the simulated enterprise network.
 
 ---
 
-### 🔵 Phase 3 – Blue Team Validation
+## 🔵 Phase 3 – Blue Team: Validation
 
-After implementing the security controls, the network was validated to confirm that:
+After implementing the security controls, the network was validated by confirming that:
 
-- Unauthorized Guest Wi-Fi access was blocked by ACLs.
-- DHCP Snooping was correctly enabled.
+- Guest Wi-Fi traffic was restricted by ACLs.
+- DHCP Snooping was functioning correctly.
 - Port Security protected switch access ports.
 - Authorized users maintained normal network connectivity.
 
-This workflow demonstrates both the implementation of defensive controls and an understanding of the reconnaissance techniques commonly used by attackers.
+This workflow demonstrates how defensive network security and attacker reconnaissance complement each other in a practical learning environment.
 
 ---
 ## Network Topology
@@ -229,6 +238,18 @@ This repository is organized into the following directories:
 - Technical Documentation
 
 ---
+# What I Learned
+
+Through this project I gained practical experience in:
+
+- Designing segmented enterprise networks
+- Implementing Cisco Layer 2 security features
+- Configuring and validating ACLs
+- Understanding reconnaissance techniques used by attackers
+- Analyzing network traffic with Wireshark
+- Documenting technical projects using GitHub
+
+This project strengthened both my networking and cybersecurity fundamentals while improving my technical documentation skills.
 
 # Future Improvements
 
