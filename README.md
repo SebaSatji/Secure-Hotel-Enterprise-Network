@@ -176,6 +176,18 @@ Wireshark was used to observe and analyze network traffic during the lab exercis
 
 ![ARP Analysis](screenshots/Wireshark/ARP-Traffic-Before-Attack.png)
 
+## Repository Structure
+
+This repository is organized into the following directories:
+
+- docs/ – Project documentation and design notes.
+- packet-tracer/ – Cisco Packet Tracer project files.
+- kali-lab/ – Documentation of the Kali Linux reconnaissance exercises.
+- screenshots/topology/ – Network topology diagram.
+- screenshots/packet-tracer/ – Cisco configuration screenshots.
+- screenshots/validation/ – Validation and testing screenshots.
+- screenshots/wireshark/ – Wireshark traffic analysis.
+- screenshots/kali/ – Nmap reconnaissance screenshots.
 
 # Technologies Used
 
