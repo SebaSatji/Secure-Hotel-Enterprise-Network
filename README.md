@@ -176,15 +176,6 @@ Wireshark was used to observe and analyze network traffic during the lab exercis
 
 ![ARP Analysis](screenshots/Wireshark/ARP-Traffic-Before-Attack.png)
 
-# Repository Structure
-Secure-Hotel-Enterprise-Network
-│
-├── docs
-├── packet-tracer
-├── kali-lab
-└── screenshots
-
----
 
 # Technologies Used
 
