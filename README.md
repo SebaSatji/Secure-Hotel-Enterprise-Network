@@ -8,6 +8,8 @@
 
 ![Nmap](https://img.shields.io/badge/Nmap-Reconnaissance-green)
 
+![Network Topology](screenshots/topology/Network-Topology.png)
+
 A hands-on enterprise networking and cybersecurity project built using Cisco Packet Tracer and complemented by a separate Kali Linux reconnaissance lab.
 
 The project demonstrates how defensive network engineering (Blue Team) and attacker reconnaissance (Red Team) complement each other in securing an enterprise environment.
@@ -77,34 +79,18 @@ After implementing the security controls, the network was validated by confirmin
 
 This workflow demonstrates how defensive network security and attacker reconnaissance complement each other in a practical learning environment.
 
----
-## Network Topology
 
-![Network Topology](screenshots/topology/Network-Topology.png)
+## Network Architecture
 
-The topology includes:
-
-- Hotel Router
-- Core Switch
-- Floor Switch
-- Hotel Server
-- Management Network
-- Reception Network
-- Staff Network
-- Guest Wi-Fi Network
-
----
-
-# VLAN Architecture
+The network was designed using a segmented enterprise architecture with dedicated VLANs for different hotel departments.
 
 | VLAN | Department |
-|-------|------------|
+|------|------------|
 | 10 | Management |
 | 20 | Reception |
 | 30 | Staff |
 | 40 | Guest Wi-Fi |
-| 50 | Servers |
-
+| 50 | Server |
 ---
 
 # Implemented Security Features
